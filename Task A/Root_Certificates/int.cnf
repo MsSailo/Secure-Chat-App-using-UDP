@@ -1,0 +1,16 @@
+[req]
+distinguished_name = req_distinguished_name
+x509_extensions = v3_ca
+
+[req_distinguished_name]
+countryName = IN
+stateOrProvinceName = Telangana
+localityName = Hyderabad
+organizationName = IIT Hyderabad
+organizationalUnitName = CSE
+commonName = iTS Root R1
+emailAddress = cs23mtech11010@iith.ac.in
+
+[v3_ca]
+basicConstraints = critical,CA:true
+keyUsage = critical,keyCertSign,cRLSign
